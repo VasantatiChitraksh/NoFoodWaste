@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10768834060",
+    "project_id": "cfg45-555a6",
+    "storage_bucket": "cfg45-555a6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10768834060:android:c2434471488527925c1829",
+        "android_client_info": {
+          "package_name": "com.example.nofoodwaste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcgz-0PqobCyUs2FyzMknJ022VLxvWIFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

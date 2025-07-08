@@ -1,0 +1,44 @@
+### Create a new user
+POST http://localhost:8000/auth/users
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "testuser@example.com",
+  "password": "securepassword",
+  "role": "admin"
+}
+
+### Get all users with role 'admin'
+GET http://localhost:8000/auth/users/admin
+
+### Create a new hunger spot
+POST http://localhost:8000/hunger-spots/
+Content-Type: application/json
+
+{
+  "name": "Central Park",
+  "location": "Central Park, Sector 10",
+  "validity": "3 hours"
+}
+
+###
+
+### Get all hunger spots
+GET http://localhost:8000/hunger-spots/
+Accept: application/json
+
+###
+
+### Get a specific hunger spot by ID
+# Replace {spot_id} with an actual ID from the previous GET response
+GET http://localhost:8000/hunger-spots/{spot_id}
+Accept: application/json
+
+###
+
+### Delete a hunger spot by ID
+# Replace {spot_id} with the actual ID
+DELETE http://localhost:8000/hunger-spots/{spot_id}
+Accept: application/json
+
